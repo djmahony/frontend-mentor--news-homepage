@@ -13,4 +13,4 @@ gulp.task('styles:watch', () => {
     })
 })
 
-gulp.task('default', gulp.series('styles'));
+gulp.task('default', gulp.series('styles:watch'));
