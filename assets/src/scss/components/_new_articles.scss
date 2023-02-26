@@ -1,0 +1,25 @@
+.new-articles {
+    background: $c-very-dark-blue;
+    padding: 2rem;
+    color: $c-grayish-blue;
+
+    h2 {
+        color: $c-soft-orange;
+    }
+}
+
+.new-article {
+    padding-block: 2.5rem;
+    font-size: 1.5rem;
+    &:not(:first-child) {
+        border-top: 1px solid $c-grayish-blue;
+    }
+
+    p {
+        margin-bottom: 0;
+    }
+
+    h3 {
+        color: $c-off-white;
+    }
+}
