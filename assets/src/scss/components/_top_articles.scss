@@ -1,0 +1,31 @@
+.top-article {
+    &__container {
+        display:grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: auto auto;
+        grid-template-areas: "image title"
+            "image content";
+        grid-column-gap: 2rem;
+    }
+
+    &__header {
+        grid-area: title;
+
+    }
+
+    &__number {
+        font-size: 3rem;
+        line-height: 1.1;
+        font-weight: 700;
+        color: $c-grayish-blue;
+        margin-bottom: 1.5rem;
+    }
+
+    &__content {
+        grid-area: content;
+    }
+
+    &__image {
+        grid-area: image;
+    }
+}

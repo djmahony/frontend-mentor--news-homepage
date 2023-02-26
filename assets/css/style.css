@@ -138,6 +138,30 @@ p {
   color: hsl(36, 100%, 99%);
 }
 
+.top-article__container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto auto;
+  grid-template-areas: "image title" "image content";
+  grid-column-gap: 2rem;
+}
+.top-article__header {
+  grid-area: title;
+}
+.top-article__number {
+  font-size: 3rem;
+  line-height: 1.1;
+  font-weight: 700;
+  color: hsl(233, 8%, 79%);
+  margin-bottom: 1.5rem;
+}
+.top-article__content {
+  grid-area: content;
+}
+.top-article__image {
+  grid-area: image;
+}
+
 .container {
   padding-inline: 2rem;
 }
