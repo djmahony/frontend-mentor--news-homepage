@@ -89,12 +89,12 @@ h2 {
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin-bottom: 0.8rem;
 }
 
 p {
-  line-height: 1.8;
+  line-height: 1.6;
   margin-bottom: 2rem;
 }
 
@@ -114,6 +114,13 @@ p {
   display: grid;
   gap: 2rem;
 }
+.hero__content {
+  color: hsl(236, 13%, 42%);
+}
+.hero__link {
+  display: inline-block;
+  vertical-align: top;
+}
 
 .new-articles {
   background: hsl(240, 100%, 5%);
@@ -129,7 +136,7 @@ p {
   font-size: 1.5rem;
 }
 .new-article:not(:first-child) {
-  border-top: 1px solid hsl(233, 8%, 79%);
+  border-top: 1px solid hsl(236, 13%, 42%);
 }
 .new-article p {
   margin-bottom: 0;
@@ -190,7 +197,11 @@ p {
 }
 
 .header__nav--mobile {
-  display: block;
+  display: flex;
+  align-items: center;
+}
+.header__nav--mobile:hover {
+  cursor: pointer;
 }
 
 .nav_main--mobile {

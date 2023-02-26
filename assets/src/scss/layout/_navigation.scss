@@ -3,7 +3,12 @@
 }
 
 .header__nav--mobile {
-    display: block;
+    display: flex;
+    align-items: center;
+
+    &:hover {
+        cursor: pointer;
+    }
 }
 
 .nav_main--mobile {

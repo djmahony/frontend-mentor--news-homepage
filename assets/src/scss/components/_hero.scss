@@ -1,4 +1,13 @@
 .hero {
     display: grid;
     gap: $g-grid-gap-s;
+
+    &__content {
+        color: $c-dark-grayish-blue;
+    }
+
+    &__link {
+        display: inline-block;
+        vertical-align: top;
+    }
 }
