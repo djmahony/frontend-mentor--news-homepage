@@ -1,0 +1,12 @@
+.btn {
+    padding: 1.5rem 3rem;
+    letter-spacing: 0.4rem;
+    text-transform: uppercase;
+    border: none;
+    background: $c-very-dark-blue;
+    color: $c-off-white;
+
+    &--primary {
+        background: $c-soft-red;
+    }
+}
