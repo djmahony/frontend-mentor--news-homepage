@@ -19,3 +19,31 @@
     min-width: 37.5rem;
     width: 75vw;
 }
+
+.mobile_nav {
+    &__icon {
+        .line {
+            transform-origin: center;
+            transition: y .3s .3s, rotate .3s, opacity 0s .3s;
+        }
+        &[data-open="true"] {
+            .line {
+                transition: y .3s, rotate .3s .3s, opacity 0s .3s;
+                &.top {
+                    --rotate: 45deg;
+                }
+
+                &.bottom {
+                    --rotate: -45deg;
+                }
+                &.top, &.bottom {
+                    y:45;
+                    rotate: var(--rotate);
+                }
+                &.middle {
+                    opacity: 0;
+                }
+            }
+        }
+    }
+}

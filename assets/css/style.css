@@ -212,3 +212,24 @@ p {
   min-width: 37.5rem;
   width: 75vw;
 }
+
+.mobile_nav__icon .line {
+  transform-origin: center;
+  transition: y 0.3s 0.3s, rotate 0.3s, opacity 0s 0.3s;
+}
+.mobile_nav__icon[data-open=true] .line {
+  transition: y 0.3s, rotate 0.3s 0.3s, opacity 0s 0.3s;
+}
+.mobile_nav__icon[data-open=true] .line.top {
+  --rotate: 45deg;
+}
+.mobile_nav__icon[data-open=true] .line.bottom {
+  --rotate: -45deg;
+}
+.mobile_nav__icon[data-open=true] .line.top, .mobile_nav__icon[data-open=true] .line.bottom {
+  y: 45;
+  rotate: var(--rotate);
+}
+.mobile_nav__icon[data-open=true] .line.middle {
+  opacity: 0;
+}
