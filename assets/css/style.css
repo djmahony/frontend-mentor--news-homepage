@@ -76,10 +76,21 @@ body {
 h1 {
   font-weight: 700;
   font-size: 5rem;
+  line-height: 1.2;
+}
+
+.hero {
+  display: grid;
+  gap: 2rem;
 }
 
 .container {
   padding-inline: 2rem;
+}
+
+.main {
+  display: grid;
+  gap: 2rem;
 }
 
 .attribution {
