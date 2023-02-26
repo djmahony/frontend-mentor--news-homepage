@@ -36,9 +36,15 @@ body {
     font-size: 1.6rem;
 }
 
-/* A elements that don't have a class get default styles */
-a:not([class]) {
-    text-decoration-skip-ink: auto;
+a,
+a:link,
+a:hover,
+a:active,
+a:visited,
+a:focus {
+    text-decoration: none;
+    outline: none;
+    color: inherit;
 }
 
 /* Make images easier to work with */
