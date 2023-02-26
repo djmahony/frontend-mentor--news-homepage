@@ -1,0 +1,20 @@
+// Colors
+
+//// Primary
+$c-soft-orange: hsl(35, 77%, 62%);
+$c-soft-red: hsl(5, 85%, 63%);
+
+//// Neutral
+$c-off-white: hsl(36, 100%, 99%);
+$c-grayish-blue: hsl(233, 8%, 79%);
+$c-dark-graish-blue: hsl(236, 13%, 42%);
+$c-very-dark-blue: hsl(240, 100%, 5%);
+
+// Font families
+$f-family-inter: 'Inter', sans-serif;
+
+$f-family-primary: $f-family-inter;
+
+$bp-small: 37.5rem; // 600px (tablet)
+$bp-medium: 56.25rem; // 900px (small desktop)
+$bp-large: 75rem; //1200px (large desktop)
