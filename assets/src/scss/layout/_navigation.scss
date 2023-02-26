@@ -1,0 +1,16 @@
+.header__nav {
+    display: none;
+}
+
+.header__nav--mobile {
+    display: block;
+}
+
+.nav_main--mobile {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: -100%;
+    min-width: 37.5rem;
+    width: 75vw;
+}

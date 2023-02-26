@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-<header class="header">
+<header class="header container">
     <div class="header__logo">
         <a class="header__home_link" href="/">
             <img src="assets/images/logo.svg" alt="Frontend Mentor News Homepage Challenge Logo">
@@ -24,25 +24,49 @@
         <nav class="nav_main">
             <ul class="nav_main__list">
                 <li class="nav_main__item">
-                    <a class="nav_menu__link" href="#">Home</a>
+                    <a class="nav_main__link" href="#">Home</a>
                 </li>
                 <li class="nav_main__item">
-                    <a class="nav_menu__link" href="#">New</a>
+                    <a class="nav_main__link" href="#">New</a>
                 </li>
                 <li class="nav_main__item">
-                    <a class="nav_menu__link" href="#">Popular</a>
+                    <a class="nav_main__link" href="#">Popular</a>
                 </li>
                 <li class="nav_main__item">
-                    <a class="nav_menu__link" href="#">Trending</a>
+                    <a class="nav_main__link" href="#">Trending</a>
                 </li>
                 <li class="nav_main__item">
-                    <a class="nav_menu__link" href="#">Categories</a>
+                    <a class="nav_main__link" href="#">Categories</a>
                 </li>
             </ul>
         </nav>
     </div>
+    <div class="header__nav--mobile">
+        <div class="mobile_nav__icon--closed">
+            <img src="./assets/images/icon-menu.svg" alt="mobile nav menu icon closed">
+        </div>
+    </div>
 </header>
-<main>
+<nav class="nav_main--mobile">
+    <ul class="nav_main__list">
+        <li class="nav_main__item">
+            <a class="nav_main__link" href="#">Home</a>
+        </li>
+        <li class="nav_main__item">
+            <a class="nav_main__link" href="#">New</a>
+        </li>
+        <li class="nav_main__item">
+            <a class="nav_main__link" href="#">Popular</a>
+        </li>
+        <li class="nav_main__item">
+            <a class="nav_main__link" href="#">Trending</a>
+        </li>
+        <li class="nav_main__item">
+            <a class="nav_main__link" href="#">Categories</a>
+        </li>
+    </ul>
+</nav>
+<main class="container">
     <section class="hero">
         <div class="hero__image">
             <picture>

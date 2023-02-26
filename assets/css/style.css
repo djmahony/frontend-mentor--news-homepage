@@ -68,10 +68,37 @@ picture {
     scroll-behavior: auto !important;
   }
 }
+.container {
+  padding-inline: 2rem;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+.header {
+  padding-block: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__nav {
+  display: none;
+}
+
+.header__nav--mobile {
+  display: block;
+}
+
+.nav_main--mobile {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: -100%;
+  min-width: 37.5rem;
+  width: 75vw;
 }
