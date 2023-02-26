@@ -68,6 +68,10 @@ picture {
     scroll-behavior: auto !important;
   }
 }
+body {
+  font-family: "Inter", sans-serif;
+}
+
 .container {
   padding-inline: 2rem;
 }
