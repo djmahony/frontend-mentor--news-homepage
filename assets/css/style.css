@@ -372,7 +372,7 @@ p {
   left: 50%;
   height: 0.2rem;
   width: 0;
-  background: hsl(240, 100%, 5%);
+  background: hsl(5, 85%, 63%);
   transition: all 0.3s;
 }
 .nav_main__link:hover::after {
