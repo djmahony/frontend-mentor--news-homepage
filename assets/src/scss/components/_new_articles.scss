@@ -6,6 +6,10 @@
     h2 {
         color: $c-soft-orange;
     }
+
+    @media(min-width: $bp-small) {
+        grid-area: new_articles;
+    }
 }
 
 .new-article {

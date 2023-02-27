@@ -1,8 +1,24 @@
 .container {
     padding-inline: 2rem;
+    max-width: 116rem;
+    margin-inline: auto;
 }
 
 .main {
     display: grid;
     gap: $g-grid-gap-l;
+
+    @media (min-width: $bp-small) {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr auto;
+        grid-template-areas: "hero hero"
+            "top_articles new_articles";
+    }
+
+    @media (min-width: $bp-medium) {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto auto;
+        grid-template-areas: "hero hero new_articles"
+            "top_articles top_articles top_articles";
+    }
 }

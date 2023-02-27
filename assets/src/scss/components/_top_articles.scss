@@ -28,4 +28,18 @@
     &__image {
         grid-area: image;
     }
+
+    &s {
+        display: grid;
+        grid-gap: $g-grid-gap-l;
+
+        @media(min-width: $bp-small) {
+            grid-area: top_articles;
+        }
+    
+        @media(min-width: $bp-medium) {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
 }

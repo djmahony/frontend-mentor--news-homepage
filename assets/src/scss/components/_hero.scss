@@ -10,4 +10,27 @@
         display: inline-block;
         vertical-align: top;
     }
+
+    @media (min-width: $bp-small) {
+        grid-area: hero;
+    }
+
+    @media (min-width: $bp-large) {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+        grid-template-areas: "image image"
+            "title content";
+
+        &__image {
+            grid-area: image;
+        }
+
+        &__title {
+            grid-area: title;
+        }
+
+        &__content {
+            grid-area: content;
+        }
+    }
 }
