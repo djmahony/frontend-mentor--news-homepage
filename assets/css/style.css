@@ -307,18 +307,19 @@ p {
   top: 0;
   right: 0;
   margin-right: -100%;
-  min-width: 20rem;
   max-width: 100vw;
-  width: 75vw;
+  width: 0;
   height: 100%;
   min-height: 100vh;
   background: hsl(36, 100%, 99%);
   padding: 15rem 2rem;
   z-index: 5;
-  transition: margin 0.5s;
+  transition: all 0.5s;
 }
 .nav_main--mobile[data-open=true] {
   margin-right: 0;
+  min-width: 20rem;
+  width: 75vw;
 }
 .nav_main--mobile .nav_main__item {
   padding: 1rem 1rem;
