@@ -13,8 +13,6 @@ This is a solution to the [News homepage challenge on Frontend Mentor](https://w
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -30,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://djmahony.github.io/frontend-mentor--news-homepage/](https://djmahony.github.io/frontend-mentor--news-homepage/)
 
 ## My process
 
