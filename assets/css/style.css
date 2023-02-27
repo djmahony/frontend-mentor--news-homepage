@@ -105,9 +105,16 @@ p {
   border: none;
   background: hsl(240, 100%, 5%);
   color: hsl(36, 100%, 99%);
+  transition: background 0.3s;
+}
+.btn:hover {
+  cursor: pointer;
 }
 .btn--primary {
   background: hsl(5, 85%, 63%);
+}
+.btn--primary:hover {
+  background: hsl(240, 100%, 5%);
 }
 
 .hero {
@@ -181,6 +188,10 @@ p {
 }
 .new-article h3 {
   color: hsl(36, 100%, 99%);
+  transition: color 0.3s;
+}
+.new-article:hover h3 {
+  color: hsl(35, 77%, 62%);
 }
 
 .top-article__container {

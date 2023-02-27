@@ -41,5 +41,12 @@
 
     h3 {
         color: $c-off-white;
+        transition: color .3s;
+    }
+
+    &:hover {
+        h3 {
+            color: $c-soft-orange;
+        }
     }
 }

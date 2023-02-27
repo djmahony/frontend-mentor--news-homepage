@@ -5,8 +5,17 @@
     border: none;
     background: $c-very-dark-blue;
     color: $c-off-white;
+    transition: background .3s;
+
+    &:hover {
+        cursor: pointer;
+    }
 
     &--primary {
         background: $c-soft-red;
+
+        &:hover {
+            background: $c-very-dark-blue;
+        }
     }
 }
