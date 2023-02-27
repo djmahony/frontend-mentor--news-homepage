@@ -352,6 +352,21 @@ p {
 }
 .nav_main__link {
   padding: 1rem;
+  position: relative;
+}
+.nav_main__link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  height: 0.2rem;
+  width: 0;
+  background: hsl(240, 100%, 5%);
+  transition: all 0.3s;
+}
+.nav_main__link:hover::after {
+  width: 100%;
+  left: 0;
 }
 
 .overlay {
