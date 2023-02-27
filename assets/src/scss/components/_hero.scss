@@ -15,7 +15,7 @@
         grid-area: hero;
     }
 
-    @media (min-width: $bp-large) {
+    @media (min-width: $bp-medium) {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto auto;
         grid-template-areas: "image image"

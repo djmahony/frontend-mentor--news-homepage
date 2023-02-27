@@ -126,7 +126,7 @@ p {
     grid-area: hero;
   }
 }
-@media (min-width: 75rem) {
+@media (min-width: 56.25rem) {
   .hero {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
@@ -154,6 +154,18 @@ p {
 @media (min-width: 43.75rem) {
   .new-articles {
     grid-area: new_articles;
+  }
+}
+@media (min-width: 56.25rem) {
+  .new-articles h2,
+  .new-articles h3 {
+    font-weight: 700;
+  }
+  .new-articles h2 {
+    font-size: 4rem;
+  }
+  .new-articles h3 {
+    font-size: 2rem;
   }
 }
 
@@ -212,7 +224,7 @@ p {
 
 .container {
   padding-inline: 2rem;
-  max-width: 116rem;
+  max-width: 117rem;
   margin-inline: auto;
 }
 
@@ -238,6 +250,7 @@ p {
 .attribution {
   font-size: 11px;
   text-align: center;
+  padding-block: 3rem;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);

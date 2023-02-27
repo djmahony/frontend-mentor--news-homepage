@@ -10,6 +10,22 @@
     @media(min-width: $bp-small) {
         grid-area: new_articles;
     }
+
+    @media(min-width: $bp-medium) {
+
+        h2,
+        h3 {
+            font-weight: 700;
+        }
+        
+        h2 {
+            font-size: 4rem;
+        }
+
+        h3 {
+            font-size: 2rem;
+        }
+    }
 }
 
 .new-article {
