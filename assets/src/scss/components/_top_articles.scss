@@ -11,6 +11,10 @@
     &__header {
         grid-area: title;
 
+        h3 {
+            transition: color .3s;
+        }
+
     }
 
     &__number {
@@ -40,6 +44,12 @@
         @media(min-width: $bp-medium) {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+
+    &:hover {
+        h3 {
+            color: $c-soft-red;
         }
     }
 }

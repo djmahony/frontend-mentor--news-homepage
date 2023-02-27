@@ -204,6 +204,9 @@ p {
 .top-article__header {
   grid-area: title;
 }
+.top-article__header h3 {
+  transition: color 0.3s;
+}
 .top-article__number {
   font-size: 3rem;
   line-height: 1.1;
@@ -231,6 +234,9 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
+}
+.top-article:hover h3 {
+  color: hsl(5, 85%, 63%);
 }
 
 .container {
@@ -364,6 +370,7 @@ p {
 .nav_main__link {
   padding: 1rem;
   position: relative;
+  transition: color 0.3s;
 }
 .nav_main__link::after {
   content: "";
@@ -374,6 +381,9 @@ p {
   width: 0;
   background: hsl(5, 85%, 63%);
   transition: all 0.3s;
+}
+.nav_main__link:hover {
+  color: hsl(5, 85%, 63%);
 }
 .nav_main__link:hover::after {
   width: 100%;
